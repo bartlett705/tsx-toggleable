@@ -1,0 +1,22 @@
+body
+    background-color: #181818
+    color: #fafafa
+    font-family: 'Spectral SC', serif
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+    button
+        width: 5rem
+        border-radius: 3px
+        background-color: salmon
+        border: 0
+    
+        &:focus
+            outline: none
+
+    .content
+        position: fixed
+        margin-top: 2rem
+        color: salmon
